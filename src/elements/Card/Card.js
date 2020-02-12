@@ -18,7 +18,7 @@ const Card = (props) => {
             <h2>{ city }</h2>
             <div className={classes.infoDetails}>
               <h3 className={classes.infoTemperature}>{ Math.round(temperature) }<span className={classes.symbol}>°</span></h3>
-              <h3 className={classes.infoType}> - { type }</h3>
+              <h3 className={classes.infoType}>{ type }</h3>
             </div>
             <div className={classes.dateWrapper}>
               <h4>{dateformat(today, "dddd, mmmm dd")} </h4>
