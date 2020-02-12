@@ -1,4 +1,4 @@
-## Simple Weather app - Builded on React
+## Simple Weather app - Builded on React :heart:
 
 [Live Demo](https://theweather.netlify.com/)
 
