@@ -1,4 +1,4 @@
-## This site can be viewed on
+## Simple Weather app - Builded on React
 
 [Live Demo](https://theweather.netlify.com/)
 
