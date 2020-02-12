@@ -36,7 +36,6 @@ class App extends Component {
 
 
   setWeather = () => {
-    console.log(this.state.searchBarInput);
     const city = this.state.searchBarInput;
     const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
     const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
