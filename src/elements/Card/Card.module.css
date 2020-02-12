@@ -1,0 +1,56 @@
+.cardWrapper {
+  min-width: 472px;
+  min-height: 220px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.16);
+  background: #F6F5FA;
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.imageWrapper {
+  display: flex;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoWrapper h2 {
+    color: #333;
+    font-size: 28px;
+    margin: .5rem 0;
+}
+
+.infoWrapper h3 {
+  color: #333;
+  font-size:22px;
+  margin: 5px 0;
+}
+
+.infoWrapper .infoTemperature {
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.infoWrapper .infoDetails {
+  display: flex;
+  align-items: center;
+  letter-spacing: .5px;
+}
+
+.infoWrapper .infoType {
+  font-size: 22px;
+  color: #333;
+}
+
+.dateWrapper h4 {
+  font-size: 15px;
+  margin: 5px 0;
+  letter-spacing: 0.5px;
+}
