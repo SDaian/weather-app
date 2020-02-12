@@ -1,3 +1,15 @@
+## This site can be viewed on
+
+[Live Demo](https://theweather.netlify.com/)
+
+![Screenshot React Weather App](Screenshot.png)
+
+## Guide: 
+
+[Medium: How To Plan And Organize A React Project - By Building A Weather App](https://medium.com/@konstantin.muenster/how-to-plan-and-organize-a-react-project-by-building-a-weather-app-95175b11bd01)
+
+-------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
