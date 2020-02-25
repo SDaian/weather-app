@@ -30,6 +30,7 @@ module.exports = {
         "react/jsx-filename-extension": "off",
         "no-console": "error",
         "no-debugger": "error",
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }]
     }
 };
