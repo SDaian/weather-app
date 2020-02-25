@@ -13,7 +13,7 @@
     "react-spinners": "^0.8.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
+    "pre-commit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,7 +54,6 @@
   },
   "lint-staged": {
     "src/**/*.js": [
-      "eslint src --ext .js",
       "prettier --write"
     ]
   }
