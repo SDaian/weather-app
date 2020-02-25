@@ -1,7 +1,7 @@
 .cardWrapper {
   border-radius: 20px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.16);
-  background: #F6F5FA;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.16);
+  background: #f6f5fa;
   color: #333333;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .cardWrapper{
+  .cardWrapper {
     max-width: 472px;
     max-height: 246px;
     flex-direction: row;
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .infoWrapper{
+  .infoWrapper {
     margin-top: 20px;
   }
 }
@@ -39,14 +39,14 @@
 }
 
 .infoWrapper h2 {
-    color: #333;
-    font-size: 28px;
-    margin: .5rem 0;
+  color: #333;
+  font-size: 28px;
+  margin: 0.5rem 0;
 }
 
 .infoWrapper h3 {
   color: #333;
-  font-size:22px;
+  font-size: 22px;
   margin: 5px 0;
 }
 
@@ -58,7 +58,7 @@
 .infoWrapper .infoDetails {
   display: flex;
   align-items: center;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .infoWrapper .infoType {
