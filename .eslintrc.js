@@ -16,22 +16,10 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['react', 'prettier'],
   rules: {
-    'prettier/prettier': [
-      'warn',
-      {
-        singleQuote: true
-      }
-    ],
     'react/jsx-filename-extension': 'off',
     'no-console': 'error',
     'no-debugger': 'error',
-    'no-unused-vars': 'warn',
-    quotes: [
-      'error',
-      'single',
-      { avoidEscape: true, allowTemplateLiterals: false }
-    ]
+    'no-unused-vars': 'error'
   }
 };

@@ -1,22 +1,22 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 // CSS
-import classes from "./App.module.css";
+import classes from './App.module.css';
 
 // Elements
-import Card from "../../elements/Card/Card";
+import Card from '../../elements/Card/Card';
 
 // Components
-import Footer from "../../components/Footer/Footer";
-import SearchBar from "../../components/SearchBar/SearchBar";
+import Footer from '../../components/Footer/Footer';
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 const App = () => {
-  const [searchBarInput, setSearchBarInput] = useState("");
+  const [searchBarInput, setSearchBarInput] = useState('');
   const [error, setError] = useState(false);
   const [weatherDetails, setWeatherDetails] = useState({
-    name: "",
+    name: '',
     temperature: null,
-    description: "Preview"
+    description: 'Preview'
   });
 
   // state = {
@@ -38,10 +38,10 @@ const App = () => {
   const setWeather = () => {
     const city = searchBarInput;
     const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
-    const API_URL = "https://api.openweathermap.org/data/2.5/weather";
+    const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
     const URL = `${API_URL}?q=${city}&appid=${API_KEY}&units=metric`;
 
-    setWeatherDetails({ description: "Loading" });
+    setWeatherDetails({ description: 'Loading' });
     setError(false);
     // this.setState({
     //   weatherDetails: {
@@ -55,7 +55,7 @@ const App = () => {
       .then(data => {
         // If city exists, update weather details
         if (data.cod === 200) {
-          setSearchBarInput("");
+          setSearchBarInput('');
           setWeatherDetails({
             name: data.name,
             temperature: data.main.temp,
@@ -75,6 +75,7 @@ const App = () => {
           throw data.cod;
         }
       })
+      // eslint-disable-next-line no-unused-vars
       .catch(err => {
         setError(true);
         // this.setState({

@@ -4,23 +4,29 @@ import InputField from '../../elements/InputField/InputField';
 import Button from '../../elements/Button/Button';
 
 function SearchBar(props) {
+  // eslint-disable-next-line react/prop-types
+  const { value, onChangeHandler, error, onClickHandler } = props;
   return (
     <div className={classes.SearchBarWrapper}>
       <InputField
         type="text"
         name="city"
         label="Location"
-        placeholder="Enter a city" 
-        value={props.value} 
-        handleChange={props.onChangeHandler} 
-        error={props.error} />
+        placeholder="Enter a city"
+        value={value}
+        handleChange={onChangeHandler}
+        error={error}
+      />
       <Button
-        name="searchSubmit" 
-        type="submit" 
+        name="searchSubmit"
+        type="submit"
         position="onForm"
-        clicked={props.onClickHandler}>Set</Button>
+        clicked={onClickHandler}
+      >
+        Set
+      </Button>
     </div>
-  )
+  );
 }
 
 export default SearchBar;

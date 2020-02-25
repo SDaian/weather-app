@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable import/no-unresolved */
-import React from "react";
-import { ClipLoader } from "react-spinners";
-import dateformat from "dateformat";
-import classes from "./Card.module.css";
-import Icon from "../Icon/Icon";
+import React from 'react';
+import { ClipLoader } from 'react-spinners';
+import dateformat from 'dateformat';
+import classes from './Card.module.css';
+import Icon from '../Icon/Icon';
 
 const Card = props => {
   const {
@@ -15,13 +15,13 @@ const Card = props => {
   return (
     <div className={classes.cardWrapper}>
       <div className={classes.imageWrapper}>
-        {type === "Loading" ? (
+        {type === 'Loading' ? (
           <ClipLoader color="#123abc" size={100} />
         ) : (
           <Icon type={type} />
         )}
       </div>
-      {type !== "Preview" && type !== "Loading" && (
+      {type !== 'Preview' && type !== 'Loading' && (
         <div className={classes.infoWrapper}>
           <h2>{city}</h2>
           <div className={classes.infoDetails}>
@@ -32,7 +32,7 @@ const Card = props => {
             <h3 className={classes.infoType}>{type}</h3>
           </div>
           <div className={classes.dateWrapper}>
-            <h4>{dateformat(today, "dddd, mmmm dd")} </h4>
+            <h4>{dateformat(today, 'dddd, mmmm dd')} </h4>
           </div>
         </div>
       )}
