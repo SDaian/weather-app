@@ -26,7 +26,6 @@ module.exports = {
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": ["error", {"singleQuote": true}],
         "react/jsx-filename-extension": "off",
         "no-console": "error",
         "no-debugger": "error",
