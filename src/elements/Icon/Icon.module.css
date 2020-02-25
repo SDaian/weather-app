@@ -1,4 +1,6 @@
 .Icon {
-  min-height: 100px;
+  max-width: 250px;
   width: 100%;
+  display: block;
+  margin: auto;
 }
