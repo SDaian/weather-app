@@ -12,7 +12,6 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 
 const App = () => {
   const [searchBarInput, setSearchBarInput] = useState("");
-
   const [error, setError] = useState(false);
   const [weatherDetails, setWeatherDetails] = useState({
     name: "",
