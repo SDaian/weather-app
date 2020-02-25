@@ -18,7 +18,6 @@ const App = () => {
     temperature: null,
     description: "Preview"
   });
-  const [state, setstate] = useState(initialState);
 
   // state = {
   //   searchBarInput: '',
@@ -40,7 +39,7 @@ const App = () => {
     const city = searchBarInput;
     const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    const URL = API_URL + `?q=${city}&appid=${API_KEY}&units=metric`;
+    const URL = `${API_URL}?q=${city}&appid=${API_KEY}&units=metric`;
 
     setWeatherDetails({ description: "Loading" });
     setError(false);
@@ -77,7 +76,6 @@ const App = () => {
         }
       })
       .catch(err => {
-        console.log(err);
         setError(true);
         // this.setState({
         //   loading: false,
