@@ -6,7 +6,8 @@
   },
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.detectIndentation": true,
+  "editor.detectIndentation": false,
   "editor.trimAutoWhitespace": true,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "prettier.singleQuote": true
 }
