@@ -6,6 +6,8 @@
 
 ## Guide:
 
+[Medium: How to refactor an React App to add React Hooks (simplest way)](https://medium.com/@scuarissid/how-to-refactor-an-react-app-to-add-react-hooks-simplest-way-f88096e96ba1)
+
 [Medium: How To Plan And Organize A React Project - By Building A Weather App](https://medium.com/@konstantin.muenster/how-to-plan-and-organize-a-react-project-by-building-a-weather-app-95175b11bd01)
 
 ---
